@@ -28,6 +28,10 @@
   "keywords": [],
   "author": "zhangshichun_looper",
   "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.11.2",
+    "@vueuse/core": "^9.4.0"
+  },
   "devDependencies": {
     "@ruabick/md-demo-plugins": "latest",
     "@ruabick/vite-plugin-gen-temp": "latest",
@@ -47,6 +51,7 @@
     "@typescript-eslint/parser": "^5.33.1",
     "eslint-define-config": "^1.6.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint-plugin-node": "^11.1.0",
+    "sass": "^1.56.1"
   }
 }

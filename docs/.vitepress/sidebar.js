@@ -11,7 +11,7 @@ export const sidebar = {
     {
       text: '介绍',
       items: [
-        { text: '按钮', link: '/seamless-scroll/' },
+        { text: '无限滚动', link: '/seamless-scroll/' },
       ],
     },
   ],

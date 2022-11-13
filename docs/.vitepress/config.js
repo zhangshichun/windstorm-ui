@@ -30,11 +30,11 @@ export default defineConfig({
         // { text: 'English', link: '/en/' },
       ],
     },
-    nav: [{ text: '指南', link: '/guide' }],
+    // nav: [{ text: '指南', link: '/guide' }],s
     sidebar,
     algolia: {},
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhangshichun_looper/windstorm-ui' },
+      { icon: 'github', link: 'https://github.com/zhangshichun/windstorm-ui' },
     ],
   },
   vue: {},
