@@ -2,6 +2,7 @@
   "name": "windstorm-ui",
   "version": "0.0.0",
   "description": "",
+  "homepage": "https://zhangshichun.github.io/windstorm-ui",
   "type": "module",
   "types": "./dist/index.d.ts",
   "main": "./dist/windstorm-ui.umd.cjs",
@@ -26,7 +27,7 @@
     "release": "np"
   },
   "keywords": [],
-  "author": "zhangshichun_looper",
+  "author": "zhangshichun",
   "license": "MIT",
   "dependencies": {
     "gsap": "^3.11.2",
