@@ -30,29 +30,30 @@
   "author": "zhangshichun",
   "license": "MIT",
   "dependencies": {
-    "gsap": "^3.11.2",
-    "@vueuse/core": "^9.4.0"
+    "@vueuse/core": "^9.4.0",
+    "gsap": "^3.11.2"
   },
   "devDependencies": {
     "@ruabick/md-demo-plugins": "latest",
+    "@ruabick/vite-plugin-gen-api-doc": "latest",
     "@ruabick/vite-plugin-gen-temp": "latest",
     "@ruabick/vitepress-demo-block": "latest",
-    "@ruabick/vite-plugin-gen-api-doc": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
     "@vitejs/plugin-vue": "^3.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.20.0",
-    "gh-pages": "^4.0.0",
-    "np": "^7.6.2",
-    "prettier": "^2.7.1",
-    "vite": "latest",
-    "vite-plugin-dts": "^1.4.0",
-    "vitepress": "latest",
-    "vue": "latest",
-    "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.33.1",
     "eslint-define-config": "^1.6.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "sass": "^1.56.1"
+    "gh-pages": "^4.0.0",
+    "maplibre-gl": "^2.4.0",
+    "np": "^7.6.2",
+    "prettier": "^2.7.1",
+    "sass": "^1.56.1",
+    "vite": "latest",
+    "vite-plugin-dts": "^1.4.0",
+    "vitepress": "latest",
+    "vue": "latest"
   }
 }

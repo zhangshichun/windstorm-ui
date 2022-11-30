@@ -1,0 +1,83 @@
+Arguments: 
+  C:\soft\nodejs\node.exe C:\Users\zhangshichun\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add maplibre-gl -D
+
+PATH: 
+  C:\Users\zhangshichun\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\zhangshichun\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\zhangshichun\AppData\Local\Yarn\Data\global\node_modules\.bin;C:\soft\xftp;C:\soft\xshell;C:\soft\nodejs;C:\Program Files\dotnet;C:\Users\zhangshichun\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\zhangshichun\AppData\Local\Programs\Python\Python310;C:\Users\zhangshichun\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\zhangshichun\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\zhangshichun\AppData\Local\Yarn\Cache\v6\npm-globby-13.1.2-29047105582427ab6eca4f905200667b056da515-integrity\node_modules\globby\ignore.js' -> 'C:\codes\github\test\webstorm-ui\node_modules\@ruabick\vite-plugin-gen-temp\node_modules\globby\ignore.js'
+
+npm manifest: 
+  {
+    "name": "windstorm-ui",
+    "version": "0.0.0",
+    "description": "",
+    "homepage": "https://zhangshichun.github.io/windstorm-ui",
+    "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/windstorm-ui.umd.cjs",
+    "module": "./dist/windstorm-ui.js",
+    "exports": {
+      ".": {
+        "import": "./dist/windstorm-ui.js",
+        "require": "./dist/windstorm-ui.umd.cjs"
+      },
+      "./dist/style.css": "./dist/style.css"
+    },
+    "scripts": {
+      "dev": "initial-scan docs && vitepress dev .docs --host",
+      "build": "vite build",
+      "site:build": "cross-env NODE_ENV=production vitepress build .docs",
+      "serve": "vitepress serve .docs --host",
+      "predeploy": "yarn build && yarn site:build",
+      "deploy": "gh-pages -d .docs/.vitepress/dist -t true",
+      "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+      "lint": "eslint src/**/*.{vue,js,ts,tsx}",
+      "lint-fix": "yarn lint -- --fix",
+      "release": "np"
+    },
+    "keywords": [],
+    "author": "zhangshichun",
+    "license": "MIT",
+    "dependencies": {
+      "gsap": "^3.11.2",
+      "@vueuse/core": "^9.4.0"
+    },
+    "devDependencies": {
+      "@ruabick/md-demo-plugins": "latest",
+      "@ruabick/vite-plugin-gen-temp": "latest",
+      "@ruabick/vitepress-demo-block": "latest",
+      "@ruabick/vite-plugin-gen-api-doc": "latest",
+      "@vitejs/plugin-vue": "^3.0.1",
+      "cross-env": "^7.0.3",
+      "eslint": "^8.20.0",
+      "gh-pages": "^4.0.0",
+      "np": "^7.6.2",
+      "prettier": "^2.7.1",
+      "vite": "latest",
+      "vite-plugin-dts": "^1.4.0",
+      "vitepress": "latest",
+      "vue": "latest",
+      "@typescript-eslint/eslint-plugin": "^5.33.1",
+      "@typescript-eslint/parser": "^5.33.1",
+      "eslint-define-config": "^1.6.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-node": "^11.1.0",
+      "sass": "^1.56.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
