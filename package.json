@@ -31,7 +31,8 @@
   "license": "MIT",
   "dependencies": {
     "@vueuse/core": "^9.4.0",
-    "gsap": "^3.11.2"
+    "gsap": "^3.11.2",
+    "turf": "^3.0.14"
   },
   "devDependencies": {
     "@ruabick/md-demo-plugins": "latest",
@@ -53,7 +54,7 @@
     "sass": "^1.56.1",
     "vite": "latest",
     "vite-plugin-dts": "^1.4.0",
-    "vitepress": "latest",
+    "vitepress": "1.0.0-alpha.29",
     "vue": "latest"
   }
 }
