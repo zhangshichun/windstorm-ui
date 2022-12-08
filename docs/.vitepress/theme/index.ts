@@ -3,8 +3,6 @@ import DemoBlock from '@ruabick/vitepress-demo-block';
 import '@ruabick/vitepress-demo-block/dist/style.css';
 import './var.css';
 
-(window as any).MY_KEY = '88f3c1aa7e87a1daa0176fe655a92030';
-
 export default {
   ...DefaultTheme,
 

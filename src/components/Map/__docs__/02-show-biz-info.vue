@@ -4,6 +4,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import maplibregl from 'maplibre-gl'
+const MY_KEY = '88f3c1aa7e87a1daa0176fe655a92030';
 const mapEl = ref(null)
 const initOption = {
   style: {
