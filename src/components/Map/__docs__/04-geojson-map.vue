@@ -4,7 +4,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import maplibregl from 'maplibre-gl'
-import turf from 'turf'
+import * as turf from '@turf/turf'
 const mapEl = ref(null)
 const initOption = {
   zoom: 5,

@@ -32,7 +32,7 @@ const genAnimates = () => {
     return
   }
   const nodeList = topRef.value.childNodes
-  const nodeArr = Array.from(nodeList.values()).filter(t => t.nodeType === Node.ELEMENT_NODE) as HTMLElement[]
+  const nodeArr = Array.from((nodeList as any).values()).filter((t: any) => t.nodeType === Node.ELEMENT_NODE) as HTMLElement[]
   const currentScrollingEl = nodeArr[scrollingElIndex]
   scrollingElIndex = (scrollingElIndex + 1) % nodeArr.length
   if (!currentScrollingEl) {
@@ -101,7 +101,7 @@ const refreshChildNodesCount = () => {
     return
   }
   const nodeList = topRef.value.childNodes
-  const nodeArr = Array.from(nodeList.values()).filter(t => t.nodeType === Node.ELEMENT_NODE)
+  const nodeArr = Array.from((nodeList as any).values()).filter((t: any) => t.nodeType === Node.ELEMENT_NODE)
   childNodesCount.value = nodeArr.length
 }
 
